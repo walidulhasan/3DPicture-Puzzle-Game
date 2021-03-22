@@ -1,0 +1,89 @@
+﻿#collage hr{
+    border:none;
+    border-top:2px solid #f5f2f2;
+    height:1px;
+}
+
+#collage #playPanel {
+    padding:10px 0px;
+    margin: 10px auto;
+    max-width:800px;
+    width:95%;
+    border-radius: 10px;
+    background: rgb(214 ,214 ,214);
+    box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
+    color: darkblue;
+}
+
+#collage #actualImageBox {
+    display: inline-block;
+    font-size:0.8em;
+    margin: 10px 10px;
+    vertical-align: top;
+    width:280px;
+}
+
+#collage #stepBox, #collage #timeBox {
+    display:inline-block;
+    width:48%;
+}
+
+#collage #stepBox div {
+    display:inline-block;
+    padding:1px 4px;
+    margin: 0px auto;
+    max-width:800px;
+    padding-bottom:11px;
+}
+
+#collage img#actualImage{
+    border:2px solid #a46;
+    height:280px;
+    width:280px;
+    border-radius: 5px;
+    background: rgb(214 ,214 ,214);
+    box-shadow: 20px 20px 25px #b6a9a9, -5px -5px 10px #ffffff;
+    color: darkblue;
+}
+
+#collage #sortable {
+    border:2px solid #a46;
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    width: 400px;
+    border-radius: 5px;
+    background: rgb(214 ,214 ,214);
+    box-shadow: 20px 20px 25px #b6a9a9, -5px -5px 10px #ffffff;
+    color: darkblue;
+}
+
+    #collage #sortable li {
+        background-size: 400% 400%;
+        border: none;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+
+#collage button  {
+    background: #d6d6d6;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    letter-spacing: 1.5px;
+    width: auto;;
+    margin: 22px;
+    border: none;
+    border-radius: 24px;
+    font-weight: bold;
+    box-shadow: -6px -6px 20px 0 rgba(255, 255, 255, 0.7), 
+    6px 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+#collage button:hover{
+    box-shadow: inset -6px -6px 20px 0 rgba(255, 255, 255, 0.7), 
+    inset 6px 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
